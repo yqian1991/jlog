@@ -52,8 +52,8 @@ class build_cjlog(_build_ext):
 setup(
      name = "jlog",
      author = "Yu Qian",
-     author_email = "yuq@surveymonkey.com",
-     version = "1.0.0",
+     author_email = "jinggeqianyu1991@gmail.com",
+     version = "1.0.1",
      license = 'MIT',
      description = "JLog Python Library",
      packages = find_packages(),
