@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: jlog
-Version: 1.1.2
+Version: 1.0.0
 Summary: JLog Python Library
-Home-page: https://labs.omniti.com/labs/jlog
+Home-page: https://github.com/yqian1991/jlog
 Author: Yu Qian
-Author-email: yuq@surveymonkey.com
+Author-email: jinggeqianyu1991@gmail.com
 License: MIT
 Description: UNKNOWN
 Platform: UNKNOWN
