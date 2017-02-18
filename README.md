@@ -8,7 +8,7 @@ Although you can found python API code in the source repo, Many problems occurre
 * libjlog: provide the core service of logging
 
 ## References:
-(1) http://stackoverflow.com/questions/16993927/using-cython-to-link-python-to-a-shared-library
-(2) http://stackoverflow.com/questions/7847305/how-to-set-ld-library-path-individually-for-django-web-sites-with-apache-and-mod?lq=1
-(3) http://stackoverflow.com/questions/856116/changing-ld-library-path-at-runtime-for-ctypes
-(4) http://docs.cython.org/src/reference/compilation.html
+* http://stackoverflow.com/questions/16993927/using-cython-to-link-python-to-a-shared-library
+* http://stackoverflow.com/questions/7847305/how-to-set-ld-library-path-individually-for-django-web-sites-with-apache-and-mod?lq=1
+* http://stackoverflow.com/questions/856116/changing-ld-library-path-at-runtime-for-ctypes
+* http://docs.cython.org/src/reference/compilation.html
