@@ -53,7 +53,7 @@ setup(
      name = "jlog",
      author = "Yu Qian",
      author_email = "yuq@surveymonkey.com",
-     version = "1.1.2",
+     version = "1.0.0",
      license = 'MIT',
      description = "JLog Python Library",
      packages = find_packages(),
