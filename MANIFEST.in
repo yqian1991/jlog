@@ -2,6 +2,7 @@ include *.pyx
 include *.pxd
 include README.rst
 graft jlog
+graft libjlog
 
 #exclude all bytecode
 global-exclude *.pyo
@@ -9,7 +10,7 @@ global-exclude *.pyc
 global-exclude *.o
 global-exclude *.a
 global-exclude *.so
-global-exclude *.so.*
+include libjlog.so.2
 global-exclude *.lo
 
 prune jlog/build
@@ -18,3 +19,6 @@ prune jlog/*.cache
 prune jlog/perl
 prune jlog/java
 prune jlog/php
+prune jlog/python
+prune jlog/jlog.egg-info
+prune jlog/.git

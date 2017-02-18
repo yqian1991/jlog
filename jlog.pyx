@@ -123,9 +123,11 @@ cdef class JLogReader(BaseJLog):
       self.ctx_initialized = True
 
     error = cjlog.jlog_ctx_open_reader(self.ctx, subscriber)
+    print 'see:', error
     if error:
-      raise JLogError("jlog reader failed to open subscriber %s@%s" % \
-          (subscriber, path), JLogReader.error_msg())
+      raise JLogError("jlog reader failed to open subscriber")
+      #raise JLogError("jlog reader failed to open subscriber %s@%s" % \
+      #    (subscriber, path), JLogReader.error_msg())
 
 
   def __dealloc__(self):
